@@ -1,0 +1,10 @@
+[package]
+name = "procmacro_ssl_bug"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+native-tls = { version = "0.2.11", features = ["vendored"] } # "vendored" works
+
+[lib]
+proc-macro = true
