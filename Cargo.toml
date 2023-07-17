@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-native-tls = { version = "0.2.11", features = ["vendored"] } # "vendored" works
+openssl = { version = "0.10.29", features = [] } # "vendored" works!
 
 [lib]
 proc-macro = true
